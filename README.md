@@ -1,3 +1,7 @@
+# Urban Haven Apartments
+
+A simple, responsive, single‑page marketing site for Urban Haven Apartments. Built with plain HTML and CSS, using Google Fonts and Font Awesome via CDN.
+
 ## Project Structure
 - `index.html` – Main page with navigation, hero, sections for About, Spaces, Amenities, Contact, and Footer.
 - `css/style.css` – Global styles, responsive layout, grid cards, amenities styling, and form styles.
