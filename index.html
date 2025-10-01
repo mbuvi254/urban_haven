@@ -4,42 +4,55 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Urban Haven Apartments</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link rel="stylesheet" href="./css/style.css">
 
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-  <!-- Navigation -->
+  
+  <!-- ================= Navigation ================= -->
   <nav>
     <a href="#" class="logo">Urban Haven</a>
     <ul>
       <li><a href="#">Home</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#spaces">Spaces</a></li>
+      <li><a href="#amenities">Amenities</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
 
-  <!-- Hero -->
+  <!-- ================= Hero Section ================= -->
   <header>
     <h1>Urban Haven Apartments</h1>
     <p>Affordable & Modern Living in Murang’a, Kiharu</p>
     <a href="#contact">Book a Viewing</a>
   </header>
 
-  <!-- About -->
+  <!-- ================= About Section ================= -->
   <section id="about">
     <h2>About Us</h2>
-    <p>For over 12 years, Urban Haven Apartments has provided quality housing solutions in Murang’a. We pride ourselves in offering affordable, stylish, and convenient living spaces tailored for individuals, couples, and families.</p>
+    <p>
+      For over 12 years, Urban Haven Apartments has provided quality housing solutions in Murang’a. 
+      We pride ourselves in offering affordable, stylish, and convenient living spaces tailored 
+      for individuals, couples, and families.
+    </p>
   </section>
 
-  <!-- Spaces -->
+  <!-- ================= Spaces Section ================= -->
   <section id="spaces">
     <h2>Our Spaces</h2>
     <div class="grid">
+
+      <!-- Example of reusable card structure -->
       <div class="card">
-        <img src="./images/single.jpeg" alt="Single Room">
+        <img src="./images/single.webp" alt="Single Room">
         <div class="card-content">
           <h3>Single Room</h3>
           <p>Kshs. 3,500/month</p>
@@ -49,7 +62,7 @@
       </div>
 
       <div class="card">
-        <img src="./images/single.jpeg" alt="Bedsitter">
+        <img src="./images/bedsitter.webp" alt="Bedsitter">
         <div class="card-content">
           <h3>Bedsitter</h3>
           <p>Kshs. 5,500/month</p>
@@ -59,7 +72,7 @@
       </div>
 
       <div class="card">
-        <img src="./images/single.jpeg" alt="Studio Apartment">
+        <img src="./images/1br.jpg" alt="Studio Apartment">
         <div class="card-content">
           <h3>Studio Apartment</h3>
           <p>Kshs. 7,000/month</p>
@@ -69,7 +82,7 @@
       </div>
 
       <div class="card">
-        <img src="./images/single.jpeg" alt="One Bedroom">
+        <img src="./images/2br.webp" alt="One Bedroom">
         <div class="card-content">
           <h3>One Bedroom</h3>
           <p>Kshs. 8,500/month</p>
@@ -79,7 +92,7 @@
       </div>
 
       <div class="card">
-        <img src="./images/single.jpeg" alt="Two Bedroom">
+        <img src="./images/1br.jpg" alt="Two Bedroom">
         <div class="card-content">
           <h3>Two Bedroom</h3>
           <p>Kshs. 10,000/month</p>
@@ -89,7 +102,7 @@
       </div>
 
       <div class="card">
-        <img src="./images/single.jpeg" alt="1-Bed Self-Contained">
+        <img src="./images/2br.webp" alt="1-Bed Self-Contained">
         <div class="card-content">
           <h3>1-Bed Self-Contained</h3>
           <p>Kshs. 15,000/month</p>
@@ -99,7 +112,7 @@
       </div>
 
       <div class="card">
-        <img src="./images/single.jpeg" alt="2-Bed Self-Contained">
+        <img src="./images/1br.jpg" alt="2-Bed Self-Contained">
         <div class="card-content">
           <h3>2-Bed Self-Contained</h3>
           <p>Kshs. 20,000/month</p>
@@ -110,10 +123,27 @@
     </div>
   </section>
 
-  <!-- Contact -->
+  <!-- ================= Amenities Section ================= -->
+  <section class="amenities-section">
+    <h2>Amenities</h2>
+    <ul class="amenities">
+      <li><i class="fa-solid fa-wifi"></i> Free WiFi (except single rooms)</li>
+      <li><i class="fa-solid fa-car"></i> Free Parking (not for single rooms & bedsitters)</li>
+      <li><i class="fa-solid fa-shirt"></i> On-site Laundry @ Kshs.150/basket</li>
+      <li><i class="fa-solid fa-dumbbell"></i> Free Gym (except single rooms & bedsitters)</li>
+      <li><i class="fa-solid fa-person-swimming"></i> Swimming Pool (free for all)</li>
+      <li><i class="fa-solid fa-elevator"></i> Elevator Access</li>
+      <li><i class="fa-solid fa-tint"></i> Free Water</li>
+      <li><i class="fa-solid fa-film"></i> Community Theatre</li>
+    </ul>
+  </section>
+
+  <!-- ================= Contact Section ================= -->
   <section id="contact">
     <h2>Contact Us</h2>
     <div class="contact">
+      
+      <!-- Contact Info -->
       <div class="contact-info">
         <p><i class="fa-solid fa-phone"></i> +254718764327</p>
         <p><i class="fa-solid fa-envelope"></i> urhaven@apartments.com</p>
@@ -122,6 +152,8 @@
           <i class="fa-brands fa-instagram"></i> <a href="#">Instagram</a>
         </p>
       </div>
+      
+      <!-- Contact Form -->
       <div class="contact-form">
         <form>
           <input type="text" name="first_name" placeholder="First Name" required>
@@ -131,12 +163,14 @@
           <button type="submit">Send Message</button>
         </form>
       </div>
+
     </div>
   </section>
 
-  <!-- Footer -->
+  <!-- ================= Footer ================= -->
   <footer>
     <p>&copy; 2025 Urban Haven Apartments | All Rights Reserved</p>
   </footer>
+
 </body>
 </html>
